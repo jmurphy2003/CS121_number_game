@@ -14,7 +14,7 @@ int main() {
     srand(time(NULL));
     secret_number = rand() % 100 + 1;
 
-    printf("(DEBUG) Secret number is %d\n", secret_number);
+    // printf("(DEBUG) Secret number is %d\n", secret_number);
 
     while (keepGoing) {
         turns++;
